@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Частная школа «Хоклив» | Языки и математика</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    :root { --primary: #003366; --accent: #ff6b00; --bg: #f5f7fa; --text: #333; }
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; color: var(--text); background: var(--bg); }
+    header { background: #fff; padding: 1rem 2rem; display: flex; justify-content: space-between; align-items: center; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+    nav a { margin-left: 1.5rem; text-decoration: none; color: var(--primary); font-weight: 500; }
+    .hero { padding: 4rem 2rem; text-align: center; background: #fff; }
+    .hero h1 { color: var(--primary); margin-bottom: 0.5rem; }
+    .features { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 2rem; padding: 3rem 2rem; max-width: 1200px; margin: 0 auto; }
+    .feature-card { background: #fff; padding: 2rem; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.05); }
+    .cta { text-align: center; padding: 4rem 2rem; background: var(--primary); color: #fff; }
+    button { background: var(--accent); color: #fff; border: none; padding: 1rem 2rem; font-size: 1rem; border-radius: 6px; cursor: pointer; }
+  </style>
+</head>
+<body>
+  <header>
+    <div><strong>Школа «Хоклив»</strong></div>
+    <nav>
+      <a href="#about">О школе</a>
+      <a href="#programs">Программы</a>
+      <a href="#teachers">Преподаватели</a>
+      <a href="#contacts">Контакты</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>«Хоклив»: языки и математика — основа будущего</h1>
+    <p>Английский и испанский как инструменты мышления. Математика как язык логики.</p>
+    <br>
+    <button onclick="alert('Форма заявки откроется здесь')">Подать заявку</button>
+  </section>
+
+  <section id="about" class="features">
+    <div class="feature-card">
+      <h3>🇬🇧🇪🇸 Погружение в языки</h3>
+      <p>Разговорная практика, проекты и партнёрства с зарубежными школами.</p>
+    </div>
+    <div class="feature-card">
+      <h3>🧮 Математика как мышление</h3>
+      <p>Олимпиадные задачи, алгоритмы, прикладные проекты и STEM‑подход.</p>
+    </div>
+    <div class="feature-card">
+      <h3>👤 Индивидуальный маршрут</h3>
+      <p>Диагностика способностей, выбор профиля и тьюторское сопровождение.</p>
+    </div>
+  </section>
+
+  <section id="contacts" class="cta">
+    <h2>Готовы узнать больше?</h2>
+    <p>Оставьте заявку — расскажем о программах и условиях поступления.</p>
+    <br>
+    <button onclick="alert('Здесь будет форма обратной связи')">Связаться с нами</button>
+  </section>
+</body>
+</html>
